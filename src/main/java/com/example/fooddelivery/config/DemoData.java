@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 //Uncomment to load initial test data
-//@Component
+@Component
 public class DemoData {
 
     @Autowired
@@ -33,7 +33,7 @@ public class DemoData {
     private OrderStatusRepository orderStatusRepository;
 
     //Uncomment to add test data.
-//    @EventListener
+    @EventListener
     public void appReady(ApplicationReadyEvent event) {
         persistRestaurants();
 
