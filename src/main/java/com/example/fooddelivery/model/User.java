@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 //Entity class that maps on to DB table.
 @Entity
-@Table(name= "USER")
+@Table(name= "APP_USER")
 public class User {
 
 	@Id @GeneratedValue(strategy=GenerationType.AUTO) 
